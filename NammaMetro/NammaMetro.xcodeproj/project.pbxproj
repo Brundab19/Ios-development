@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75090EC92BB9AEFE00D823EE /* NammaMetroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75090EC82BB9AEFE00D823EE /* NammaMetroApp.swift */; };
+		75090ECB2BB9AEFE00D823EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75090ECA2BB9AEFE00D823EE /* ContentView.swift */; };
+		75090ECD2BB9AF0000D823EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75090ECC2BB9AF0000D823EE /* Assets.xcassets */; };
+		75090ED02BB9AF0000D823EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75090ECF2BB9AF0000D823EE /* Preview Assets.xcassets */; };
+		75090EDA2BB9AF0000D823EE /* NammaMetroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75090ED92BB9AF0000D823EE /* NammaMetroTests.swift */; };
+		75090EE42BB9AF0000D823EE /* NammaMetroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75090EE32BB9AF0000D823EE /* NammaMetroUITests.swift */; };
+		75090EE62BB9AF0000D823EE /* NammaMetroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75090EE52BB9AF0000D823EE /* NammaMetroUITestsLaunchTests.swift */; };
+		754BAEF52C391C190087E84C /* ProjectCourseEra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754BAEF42C391C190087E84C /* ProjectCourseEra.swift */; };
+		758FB7942C3197CC003A8A2C /* view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758FB7932C3197CC003A8A2C /* view.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75090ED62BB9AF0000D823EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75090EBD2BB9AEFE00D823EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75090EC42BB9AEFE00D823EE;
+			remoteInfo = NammaMetro;
+		};
+		75090EE02BB9AF0000D823EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75090EBD2BB9AEFE00D823EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75090EC42BB9AEFE00D823EE;
+			remoteInfo = NammaMetro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75090EC52BB9AEFE00D823EE /* NammaMetro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NammaMetro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75090EC82BB9AEFE00D823EE /* NammaMetroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NammaMetroApp.swift; sourceTree = "<group>"; };
+		75090ECA2BB9AEFE00D823EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		75090ECC2BB9AF0000D823EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75090ECF2BB9AF0000D823EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75090ED52BB9AF0000D823EE /* NammaMetroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NammaMetroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75090ED92BB9AF0000D823EE /* NammaMetroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NammaMetroTests.swift; sourceTree = "<group>"; };
+		75090EDF2BB9AF0000D823EE /* NammaMetroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NammaMetroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75090EE32BB9AF0000D823EE /* NammaMetroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NammaMetroUITests.swift; sourceTree = "<group>"; };
+		75090EE52BB9AF0000D823EE /* NammaMetroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NammaMetroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		754BAEF42C391C190087E84C /* ProjectCourseEra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCourseEra.swift; sourceTree = "<group>"; };
+		758FB7922C3116FA003A8A2C /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		758FB7932C3197CC003A8A2C /* view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75090EC22BB9AEFE00D823EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75090ED22BB9AF0000D823EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75090EDC2BB9AF0000D823EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75090EBC2BB9AEFE00D823EE = {
+			isa = PBXGroup;
+			children = (
+				758FB7922C3116FA003A8A2C /* MyPlayground.playground */,
+				75090EC72BB9AEFE00D823EE /* NammaMetro */,
+				75090ED82BB9AF0000D823EE /* NammaMetroTests */,
+				75090EE22BB9AF0000D823EE /* NammaMetroUITests */,
+				75090EC62BB9AEFE00D823EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75090EC62BB9AEFE00D823EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75090EC52BB9AEFE00D823EE /* NammaMetro.app */,
+				75090ED52BB9AF0000D823EE /* NammaMetroTests.xctest */,
+				75090EDF2BB9AF0000D823EE /* NammaMetroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75090EC72BB9AEFE00D823EE /* NammaMetro */ = {
+			isa = PBXGroup;
+			children = (
+				75090EC82BB9AEFE00D823EE /* NammaMetroApp.swift */,
+				754BAEF42C391C190087E84C /* ProjectCourseEra.swift */,
+				75090ECA2BB9AEFE00D823EE /* ContentView.swift */,
+				758FB7932C3197CC003A8A2C /* view.swift */,
+				75090ECC2BB9AF0000D823EE /* Assets.xcassets */,
+				75090ECE2BB9AF0000D823EE /* Preview Content */,
+			);
+			path = NammaMetro;
+			sourceTree = "<group>";
+		};
+		75090ECE2BB9AF0000D823EE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				75090ECF2BB9AF0000D823EE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75090ED82BB9AF0000D823EE /* NammaMetroTests */ = {
+			isa = PBXGroup;
+			children = (
+				75090ED92BB9AF0000D823EE /* NammaMetroTests.swift */,
+			);
+			path = NammaMetroTests;
+			sourceTree = "<group>";
+		};
+		75090EE22BB9AF0000D823EE /* NammaMetroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75090EE32BB9AF0000D823EE /* NammaMetroUITests.swift */,
+				75090EE52BB9AF0000D823EE /* NammaMetroUITestsLaunchTests.swift */,
+			);
+			path = NammaMetroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75090EC42BB9AEFE00D823EE /* NammaMetro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75090EE92BB9AF0000D823EE /* Build configuration list for PBXNativeTarget "NammaMetro" */;
+			buildPhases = (
+				75090EC12BB9AEFE00D823EE /* Sources */,
+				75090EC22BB9AEFE00D823EE /* Frameworks */,
+				75090EC32BB9AEFE00D823EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NammaMetro;
+			productName = NammaMetro;
+			productReference = 75090EC52BB9AEFE00D823EE /* NammaMetro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75090ED42BB9AF0000D823EE /* NammaMetroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75090EEC2BB9AF0000D823EE /* Build configuration list for PBXNativeTarget "NammaMetroTests" */;
+			buildPhases = (
+				75090ED12BB9AF0000D823EE /* Sources */,
+				75090ED22BB9AF0000D823EE /* Frameworks */,
+				75090ED32BB9AF0000D823EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75090ED72BB9AF0000D823EE /* PBXTargetDependency */,
+			);
+			name = NammaMetroTests;
+			productName = NammaMetroTests;
+			productReference = 75090ED52BB9AF0000D823EE /* NammaMetroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75090EDE2BB9AF0000D823EE /* NammaMetroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75090EEF2BB9AF0000D823EE /* Build configuration list for PBXNativeTarget "NammaMetroUITests" */;
+			buildPhases = (
+				75090EDB2BB9AF0000D823EE /* Sources */,
+				75090EDC2BB9AF0000D823EE /* Frameworks */,
+				75090EDD2BB9AF0000D823EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75090EE12BB9AF0000D823EE /* PBXTargetDependency */,
+			);
+			name = NammaMetroUITests;
+			productName = NammaMetroUITests;
+			productReference = 75090EDF2BB9AF0000D823EE /* NammaMetroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75090EBD2BB9AEFE00D823EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					75090EC42BB9AEFE00D823EE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					75090ED42BB9AF0000D823EE = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 75090EC42BB9AEFE00D823EE;
+					};
+					75090EDE2BB9AF0000D823EE = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 75090EC42BB9AEFE00D823EE;
+					};
+				};
+			};
+			buildConfigurationList = 75090EC02BB9AEFE00D823EE /* Build configuration list for PBXProject "NammaMetro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75090EBC2BB9AEFE00D823EE;
+			packageReferences = (
+				758FB7912C3116CF003A8A2C /* XCRemoteSwiftPackageReference "swift-system" */,
+			);
+			productRefGroup = 75090EC62BB9AEFE00D823EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75090EC42BB9AEFE00D823EE /* NammaMetro */,
+				75090ED42BB9AF0000D823EE /* NammaMetroTests */,
+				75090EDE2BB9AF0000D823EE /* NammaMetroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75090EC32BB9AEFE00D823EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75090ED02BB9AF0000D823EE /* Preview Assets.xcassets in Resources */,
+				75090ECD2BB9AF0000D823EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75090ED32BB9AF0000D823EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75090EDD2BB9AF0000D823EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75090EC12BB9AEFE00D823EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75090ECB2BB9AEFE00D823EE /* ContentView.swift in Sources */,
+				754BAEF52C391C190087E84C /* ProjectCourseEra.swift in Sources */,
+				758FB7942C3197CC003A8A2C /* view.swift in Sources */,
+				75090EC92BB9AEFE00D823EE /* NammaMetroApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75090ED12BB9AF0000D823EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75090EDA2BB9AF0000D823EE /* NammaMetroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75090EDB2BB9AF0000D823EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75090EE42BB9AF0000D823EE /* NammaMetroUITests.swift in Sources */,
+				75090EE62BB9AF0000D823EE /* NammaMetroUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75090ED72BB9AF0000D823EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75090EC42BB9AEFE00D823EE /* NammaMetro */;
+			targetProxy = 75090ED62BB9AF0000D823EE /* PBXContainerItemProxy */;
+		};
+		75090EE12BB9AF0000D823EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75090EC42BB9AEFE00D823EE /* NammaMetro */;
+			targetProxy = 75090EE02BB9AF0000D823EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		75090EE72BB9AF0000D823EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75090EE82BB9AF0000D823EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75090EEA2BB9AF0000D823EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NammaMetro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.NammaMetro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75090EEB2BB9AF0000D823EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NammaMetro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.NammaMetro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75090EED2BB9AF0000D823EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.NammaMetroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NammaMetro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NammaMetro";
+			};
+			name = Debug;
+		};
+		75090EEE2BB9AF0000D823EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.NammaMetroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NammaMetro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NammaMetro";
+			};
+			name = Release;
+		};
+		75090EF02BB9AF0000D823EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.NammaMetroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NammaMetro;
+			};
+			name = Debug;
+		};
+		75090EF12BB9AF0000D823EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.NammaMetroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NammaMetro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75090EC02BB9AEFE00D823EE /* Build configuration list for PBXProject "NammaMetro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75090EE72BB9AF0000D823EE /* Debug */,
+				75090EE82BB9AF0000D823EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75090EE92BB9AF0000D823EE /* Build configuration list for PBXNativeTarget "NammaMetro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75090EEA2BB9AF0000D823EE /* Debug */,
+				75090EEB2BB9AF0000D823EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75090EEC2BB9AF0000D823EE /* Build configuration list for PBXNativeTarget "NammaMetroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75090EED2BB9AF0000D823EE /* Debug */,
+				75090EEE2BB9AF0000D823EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75090EEF2BB9AF0000D823EE /* Build configuration list for PBXNativeTarget "NammaMetroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75090EF02BB9AF0000D823EE /* Debug */,
+				75090EF12BB9AF0000D823EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		758FB7912C3116CF003A8A2C /* XCRemoteSwiftPackageReference "swift-system" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-system.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 75090EBD2BB9AEFE00D823EE /* Project object */;
+}
