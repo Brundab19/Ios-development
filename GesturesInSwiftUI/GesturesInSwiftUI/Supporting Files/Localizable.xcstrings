@@ -1,0 +1,690 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Bounce back gesture" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gest odbicia"
+          }
+        }
+      }
+    },
+    "Click Me!\nDrag Me!\nZoom Me! " : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kliknij Mnie!\nPrzciągnij Mnie\nPrzybliż Mnie!"
+          }
+        }
+      }
+    },
+    "Click on the gear menu" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kliknij w ikonkę menu"
+          }
+        }
+      }
+    },
+    "Combined" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Łączone"
+          }
+        }
+      }
+    },
+    "Combined Gestures" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesty Łączone"
+          }
+        }
+      }
+    },
+    "Combining gestures" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Łączenie gestów"
+          }
+        }
+      }
+    },
+    "Drag And Drop" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przeciągnij i upuść"
+          }
+        }
+      }
+    },
+    "Drag and Drop Gestures" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesty Przeciągnij i upuść"
+          }
+        }
+      }
+    },
+    "Drag and save the position of the item" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przeciągnij i zachowaj pozycję"
+          }
+        }
+      }
+    },
+    "Drag gesture with bounce back" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gest przeciągnięcia z odbiciem"
+          }
+        }
+      }
+    },
+    "Drag Gesture with bounce back" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gest Przeciągania z odbiciem"
+          }
+        }
+      }
+    },
+    "Drag Gesture with position being preserved" : {
+
+    },
+    "Drag gesture with state saving" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gest przeciągania z zachowaniem stanu"
+          }
+        }
+      }
+    },
+    "Drag gesture with tracked possition" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gest przeciągania z śledzeniem pozycji"
+          }
+        }
+      }
+    },
+    "Drag Gesture without bounce back" : {
+
+    },
+    "Drag Gestures" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesty przeciągania"
+          }
+        }
+      }
+    },
+    "Drag item and preserve it's position across the views" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przeciągnij obiekt zachowując jego pozycję pomiędzy widokami"
+          }
+        }
+      }
+    },
+    "Drag me!" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przeciągnij mnie"
+          }
+        }
+      }
+    },
+    "Drag Me!" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przeciągnij Mnie!"
+          }
+        }
+      }
+    },
+    "Dragging with bounce back effect" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przeciąganie z efektem odbicia"
+          }
+        }
+      }
+    },
+    "Dragging without bouncing" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przeciąganie bez efektu odbicia"
+          }
+        }
+      }
+    },
+    "Draging with and keeping item in place" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gest przeciągania z zachowaniem stanu pomiędzy widokami"
+          }
+        }
+      }
+    },
+    "Draging with bounce back effect" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przeciaganie z efektem odbicia"
+          }
+        }
+      }
+    },
+    "English" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Angielski"
+          }
+        }
+      }
+    },
+    "Example 1" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przykład 1"
+          }
+        }
+      }
+    },
+    "Example 1 View" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przykład 1"
+          }
+        }
+      }
+    },
+    "Example 2" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przykład 2"
+          }
+        }
+      }
+    },
+    "Example 3" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przykład 3"
+          }
+        }
+      }
+    },
+    "General" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ogólne"
+          }
+        }
+      }
+    },
+    "General Gesrures" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ogólne Gesty"
+          }
+        }
+      }
+    },
+    "General gestures" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ogólne gesty"
+          }
+        }
+      }
+    },
+    "Hello, World!" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cześć, Świecie!"
+          }
+        }
+      }
+    },
+    "Information" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informacje"
+          }
+        }
+      }
+    },
+    "Keep magnification value" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zachowaj wartość powiększenia"
+          }
+        }
+      }
+    },
+    "Keep scale factor across the views" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zachowaj skalę pomiędzy widokami"
+          }
+        }
+      }
+    },
+    "Keeping magnification value" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zachowując przybliżenie"
+          }
+        }
+      }
+    },
+    "Keeping rotation value" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zachowując obrócenie"
+          }
+        }
+      }
+    },
+    "Magnification" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Powiększenie"
+          }
+        }
+      }
+    },
+    "Magnification Gesture" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gest przybliżania"
+          }
+        }
+      }
+    },
+    "Magnification Gestures" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesty Powiększenia"
+          }
+        }
+      }
+    },
+    "Magnification with bounce back effect" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Powiększenie z efektem powrotu"
+          }
+        }
+      }
+    },
+    "Magnification with scale preservation across the views" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Powiększenie z zachowaniem skali pomiędzy widokami"
+          }
+        }
+      }
+    },
+    "Magnify and bounce back" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Powiekszenie i powrót do poprzedniego stanu"
+          }
+        }
+      }
+    },
+    "Magnify and Keep magnification value" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Powiększenie i utrzymanie wartości"
+          }
+        }
+      }
+    },
+    "Magnify and Keep Zoom Level" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Powiększenie i podtrzmanie wartości "
+          }
+        }
+      }
+    },
+    "Magnify and preserve magnification value" : {
+
+    },
+    "Magnify with bounce back" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Powiększenie z odbiciem"
+          }
+        }
+      }
+    },
+    "Magnify with keeping the value" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Powiększenie z zachowaniem wartości"
+          }
+        }
+      }
+    },
+    "Magnify with value storage" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Powiększenie z przechowywaniem wartoście"
+          }
+        }
+      }
+    },
+    "Polish" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polski"
+          }
+        }
+      }
+    },
+    "Preserve the rotation angle" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zachowaj kąt obrócenia"
+          }
+        }
+      }
+    },
+    "Preview" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podgląd"
+          }
+        }
+      }
+    },
+    "Rotate back and return to starting value" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Powród do pierwotnego kąta"
+          }
+        }
+      }
+    },
+    "Rotate Me!" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obróć Mnie!"
+          }
+        }
+      }
+    },
+    "Rotation" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obracanie"
+          }
+        }
+      }
+    },
+    "Rotation Gesture" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gest obracania"
+          }
+        }
+      }
+    },
+    "Rotation gestures" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesty obracania"
+          }
+        }
+      }
+    },
+    "Rotation Gestures" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesty obracania"
+          }
+        }
+      }
+    },
+    "Rotation with Bounce Back effect" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obrócenie z efektem powrotu"
+          }
+        }
+      }
+    },
+    "Rotation Without Bounce Back" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obrócenie bez efektu powrotu"
+          }
+        }
+      }
+    },
+    "Rotation Without State Preserving" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obrócenie z zachowaniem wartości pomiędzy widokami"
+          }
+        }
+      }
+    },
+    "Rotation, Magnification, Draging" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obracanie, Powiększanie, Przeciąganie"
+          }
+        }
+      }
+    },
+    "Storing Value" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przechowywana wartość"
+          }
+        }
+      }
+    },
+    "Subtitle" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podtytuł"
+          }
+        }
+      }
+    },
+    "Swift UI Gestures" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesty w SwiftUI"
+          }
+        }
+      }
+    },
+    "Test" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Test"
+          }
+        }
+      }
+    },
+    "This application was built with SwiftUI without usage of 3rd party libraries mostly for educational purposes and to show various possibilities of using gestures with swift UI" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta aplikcja zostalła zbudowana przy użyciu SwiftUI bez używania osobnych bibliotek głównie na potrzeby szkoleniowe i żeby pokaząc różne możliwości wykorzystania SwiftUI"
+          }
+        }
+      }
+    },
+    "You can change the app language if needed" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Możesz zmienić język aplikacji jeśli chcesz"
+          }
+        }
+      }
+    },
+    "Zoom Me!" : {
+
+    }
+  },
+  "version" : "1.0"
+}
